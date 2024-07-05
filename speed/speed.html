@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Scoreboard</title>
+</head>
+<body>
+    <audio src="/music.mp3" id="aud" autoplay muted loop>
+        <source src="/music.mp3" type="audio/mp3">
+    </audio>
+    <div id="mute" onclick="toggle()"><img src="/mute.png" height="60" id="tog"></div>
+    <div id="box">
+        <img src="/speed.png" id="simg">
+        <div id="name"></div>
+        <div id="speed">Your typing speed is</div>
+        <div id="wpm"></div>
+        <div id="word">wpm</div>
+        <div id="motiv"></div>
+        <a href="/index/index.html" id="home"><img src="/speed/home.png" height="50" id="himg"></a>
+        <a href="/game/game.html" id="replay"><img src="/playagain.png" height="60" id="rimg"></a>
+    </div>
+</body>
+</html>

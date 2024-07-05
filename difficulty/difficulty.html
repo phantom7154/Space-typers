@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Difficulty</title>
+</head>
+<body>
+    <a href = "/menu/menu.html" id="back"><img src = "/back.png" height = "80" id="backimg"></a>
+    <audio src="/music.mp3" id="aud" autoplay muted loop>
+        <source src="/music.mp3" type="audio/mp3">
+    </audio>
+    <div id="mute" onclick="toggle()"><img src="/mute.png" height="60" id="tog"></div>
+    <div id="box"></div>
+    <div id="box1">
+        <p id="choose">Choose difficulty level</p>
+        <a href="/level/level.html" id="easy" onclick="easy()"><img src="/easy.png" height="50" id="eimg"></a>
+        <a href="/level/level.html" id="medium" onclick="medium()"><img src="/medium.png" height="50" id="mimg"></a>
+        <a href="/level/level.html" id="hard" onclick="hard()"><img src="/hard.png" height="50" id="himg"></a>
+    </div>
+</body>
+</html>

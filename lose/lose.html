@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script href="script.js" defer></script>
+    <title>Game Over</title>
+</head>
+<body>
+    <audio src="/music.mp3" id="aud" autoplay muted loop>
+        <source src="/music.mp3" type="audio/mp3">
+    </audio>
+    <div id="mute" onclick="toggle()"><img src="/mute.png" height="60" id="tog"></div>
+    <div id="box">
+        <img src="/over.png" id="lose">
+        <a href="/index/index.html" id="home"><img src="/speed/home.png" height="50" id="himg"></a>
+        <a href="/levels/level1/level.html" id="replay"><img src="/try.png" height="60" id="try"></a>
+    </div>
+</body>
+</html>

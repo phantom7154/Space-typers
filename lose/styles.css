@@ -1,0 +1,50 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#box {
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    background-image: url("/game/type.jpg");
+    background-size: cover;
+    border-radius: 3%;
+    position: fixed;
+    top: 15vh;
+    left: 40vw;
+}
+
+#home {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#himg:hover {
+    height: 51px;
+}
+
+#lose {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height: 200px;
+}
+
+#replay {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+#try:hover {
+    height: 61px;
+}
+
+#mute {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }

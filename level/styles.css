@@ -1,0 +1,49 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 3%;
+    position: fixed;
+    top: 15vh;
+    left: 40vw;
+    gap: 5px;
+    text-decoration: none;
+}
+
+#box1 {
+    background-color: aliceblue;
+    opacity: 0.5;
+    border-radius: 3%;
+    height: 600px;
+    width: 400px;
+    position: fixed;
+    top: 15vh;
+    left: 40vw;
+}
+
+#back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  
+#backimg:hover {
+    height: 82px;
+}
+
+#mute {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }

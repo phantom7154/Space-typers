@@ -1,0 +1,87 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#box {
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    background-image: url("/game/type.jpg");
+    background-size: cover;
+    border-radius: 3%;
+    position: fixed;
+    top: 15vh;
+    left: 40vw;
+}
+
+#mute {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#home {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#himg:hover {
+    height: 51px;
+}
+
+#speed {
+    color: aliceblue;
+    font-size: 2rem;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+}
+
+#simg {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    height: 120px;
+}
+
+#replay {
+    position: absolute;
+    top: 440px;
+    left: 120px;
+}
+
+#rimg:hover {
+    height: 61px;
+}
+
+#wpm {
+    color: aliceblue;
+    font-size: 2rem;
+    position: absolute;
+    top: 180px;
+    left: 135px;
+}
+
+#word {
+    color: aliceblue;
+    font-size: 2rem;
+    position: absolute;
+    top: 180px;
+    left: 220px;
+}
+
+#motiv {
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: left;
+    position: absolute;
+    top: 210px;
+    left: 70px;
+}
+
+#tog:hover {
+    height: 61px;
+}

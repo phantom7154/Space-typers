@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Menu</title>
+</head>
+<body>
+    <a href = "/index/index.html" id="back"><img src = "/back.png" height = "80" id="backimg"></a>
+    <audio src="/music.mp3" id="aud" autoplay muted loop>
+        <source src="/music.mp3" type="audio/mp3">
+    </audio>
+    <div id="mute" onclick="toggle()"><img src="/mute.png" height="60" id="tog"></div>
+    <div id="box">
+        <p id="welcome">Welcome to Space Typers</p>
+        <form action="/difficulty/difficulty.html" id="form">
+            <label for="name" id="label">Enter your name</label>
+            <input type ="text" placeholder=" Nickname" id="name" autofocus>
+            <input type="image" src="/menu/play.png" alt="Play" id="play">
+        </form>
+        <a href="/game/game.html" id="speed">Check your typing speed</a>
+        <a href="/rules/rules.html" id="how">How to play</a>
+    </div>
+</body>
+</html>
